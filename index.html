@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.14/lottie.min.js"></script>
 </head>
 <body class="font-sans bg-gray-100">
     <header class="bg-blue-900 text-white fixed w-full z-50">
@@ -43,16 +43,16 @@
         </div>
     </header>
   <main>
-    <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
-        <div id="lottie-background" class="absolute inset-0 z-0"></div>
-        <div class="relative z-10 text-center text-white">
-            <h1 class="text-5xl md:text-6xl font-bold mb-4 animate-fade-in-down">Welcome to INDOCSPORTS</h1>
-            <p class="text-xl md:text-2xl mb-8 animate-fade-in-up">Discover your passion for football with our training program</p>
-            <a href="#training" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105 animate-pulse">
-                Start Training Now
-            </a>
-        </div>
-    </section>
+    <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden bg-cover bg-center" style="background-image: url('images/image.png');">
+    <div class="absolute inset-0 bg-black opacity-50 z-0"></div>
+    <div class="relative z-10 text-center text-white">
+        <h1 class="text-5xl md:text-6xl font-bold mb-4 animate-fade-in-down">Welcome to INDOCSPORTS</h1>
+        <p class="text-xl md:text-2xl mb-8 animate-fade-in-up">Discover your passion for football with our training program</p>
+        <a href="#training" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105 animate-pulse">
+            Start Training Now
+        </a>
+    </div>
+</section>
 
     <section id="about" class="py-20 bg-white">
         <div class="container mx-auto px-6">
@@ -233,5 +233,8 @@
             </div>
         </div>
     </div>
-</footer></body>
+    
+
+</footer>
+</body>
 </html>
