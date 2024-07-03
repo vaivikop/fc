@@ -32,7 +32,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       renderer: 'svg',
       loop: true,
       autoplay: true,
-      path: 'https://assets3.lottiefiles.com/packages/lf20_UJNc2t.json' // Replace with an appropriate football-themed animation
+      path: '' // Replace with an appropriate football-themed animation
   });
   
   // Intersection Observer for reveal animations
